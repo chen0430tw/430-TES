@@ -50,6 +50,26 @@ const sidebars: SidebarsConfig = {
         'part3/chapter-17-universal-theory',
       ],
     },
+    {
+      type: 'category',
+      label: '第四部分：对话与人格理论',
+      items: [
+        'part4/chapter-18-dialogical-self',
+        'part4/chapter-19-inner-thinking',
+        'part4/chapter-20-dialogue-cosplay',
+        'part4/chapter-21-personality-layers',
+        'part4/chapter-22-change-catalyst',
+      ],
+    },
+    {
+      type: 'category',
+      label: '第五部分：应用研究',
+      items: [
+        'part5/chapter-23-health',
+        'part5/chapter-24-mental-health',
+        'part5/chapter-25-academic-addiction',
+      ],
+    },
   ],
 };
 
