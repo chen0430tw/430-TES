@@ -1,9 +1,9 @@
 ---
-title: "Chapter 22: 群体变革因子"
-sidebar_label: "22. 群体变革因子"
+title: "Chapter 24: 群体变革因子"
+sidebar_label: "24. 群体变革因子"
 ---
 
-# Chapter 22: 群体变革因子
+# Chapter 24: 群体变革因子
 ## Group Change Catalyst: The Last Piece of the Puzzle
 
 *有些人是系统的润滑剂,有些人是催化剂。群体变革因子理论探讨一个深刻现象:某些个体的加入或离开能够触发整个群体的质变——不是因为权力或资源,而是因为他们填补了关键的认知或情感空缺,成为系统进化的"最后一块拼图"。*

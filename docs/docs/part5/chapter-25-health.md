@@ -1,9 +1,9 @@
 ---
-title: "Chapter 23: 健康与医学研究"
-sidebar_label: "23. 健康与医学"
+title: "Chapter 25: 健康与医学研究"
+sidebar_label: "25. 健康与医学"
 ---
 
-# Chapter 23: 健康与医学研究
+# Chapter 25: 健康与医学研究
 ## Health and Medical Research: From Knowledge to Practice
 
 *430思想体系不仅是抽象理论,更关注实际应用。在健康与医学领域,我们探讨如何用系统思维理解人体,用批判性思维评估健康信息,用网络思维连接生活方式与疾病预防。本章聚焦于熬夜、氧化应激和迷走神经等具体主题。*

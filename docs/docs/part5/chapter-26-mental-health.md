@@ -1,9 +1,9 @@
 ---
-title: "Chapter 24: 心理健康研究"
-sidebar_label: "24. 心理健康"
+title: "Chapter 26: 心理健康研究"
+sidebar_label: "26. 心理健康"
 ---
 
-# Chapter 24: 心理健康研究
+# Chapter 26: 心理健康研究
 ## Mental Health: Cognitive Patterns and Interventions
 
 *心理健康不只是没有疾病,而是认知、情感和行为的最优状态。本章探讨信息过载、失眠、躯体化、灾难化思维和双相情感障碍,用430框架理解和应对这些挑战。*

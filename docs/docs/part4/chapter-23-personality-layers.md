@@ -1,9 +1,9 @@
 ---
-title: "Chapter 21: 人格分层理论"
-sidebar_label: "21. 人格分层"
+title: "Chapter 23: 人格分层理论"
+sidebar_label: "23. 人格分层"
 ---
 
-# Chapter 21: 人格分层理论
+# Chapter 23: 人格分层理论
 ## Personality Stratification: Surface and Depth
 
 *人格如同地质结构——表层是他人看到的,深层是真实的自我。人格分层理论揭示了"表人格"与"里人格"的区分,以及这种分层在社交互动和自我认知中的作用。*

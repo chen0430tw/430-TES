@@ -1,9 +1,9 @@
 ---
-title: "Chapter 25: 学术成瘾与深度探索"
-sidebar_label: "25. 学术成瘾"
+title: "Chapter 27: 学术成瘾与深度探索"
+sidebar_label: "27. 学术成瘾"
 ---
 
-# Chapter 25: 学术成瘾与深度探索
+# Chapter 27: 学术成瘾与深度探索
 ## Academic Addiction: The Passion and the Peril
 
 *对知识的追求是人类最高尚的冲动之一,但当这种追求变得强迫性时会发生什么?学术成瘾描述了对学术探索的深度兴趣和热爱,这种热爱可以带来卓越成就,但也可能导致失衡。本章探讨学术成瘾的双面性,以及如何在激情与平衡间找到路径。*

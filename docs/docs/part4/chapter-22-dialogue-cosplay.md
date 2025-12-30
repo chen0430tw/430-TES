@@ -1,9 +1,9 @@
 ---
-title: "Chapter 20: 对白心理与语言Cosplay"
-sidebar_label: "20. 对白心理与语言Cosplay"
+title: "Chapter 22: 对白心理与语言Cosplay"
+sidebar_label: "22. 对白心理与语言Cosplay"
 ---
 
-# Chapter 20: 对白心理与语言Cosplay
+# Chapter 22: 对白心理与语言Cosplay
 ## Dialogue Psychology and Linguistic Role-Play
 
 *语言不仅传递信息,更塑造身份。当我们切换语言风格时,我们也在切换自我。对白心理研究对话中的角色扮演,而语言Cosplay则是有意识地模仿他人语言风格——这不是欺骗,而是认知的灵活性和社交的适应性。*

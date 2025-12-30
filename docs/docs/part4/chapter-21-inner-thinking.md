@@ -1,9 +1,9 @@
 ---
-title: "Chapter 19: 内思维"
-sidebar_label: "19. 内思维"
+title: "Chapter 21: 内思维"
+sidebar_label: "21. 内思维"
 ---
 
-# Chapter 19: 内思维
+# Chapter 21: 内思维
 ## Inner Thinking: The Silent Language of the Mind
 
 *在我们开口说话之前,思维已经在内心流淌。内思维是意识的底流——那些未说出口的词语、内心的独白、思维的实验场。它是人类认知的核心特征,也是AI试图模拟的关键能力。*

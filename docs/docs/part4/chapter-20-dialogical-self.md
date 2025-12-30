@@ -1,9 +1,9 @@
 ---
-title: "Chapter 18: Dialogical Self对话自我"
-sidebar_label: "18. 对话自我"
+title: "Chapter 20: Dialogical Self对话自我"
+sidebar_label: "20. 对话自我"
 ---
 
-# Chapter 18: Dialogical Self对话自我
+# Chapter 20: Dialogical Self对话自我
 ## The Multi-Voiced Nature of the Self
 
 *"我"不是单一的声音,而是内在对话的交响乐。对话自我理论揭示了一个深刻的真理:自我是由多个内部角色构成的动态系统,它们相互对话、辩论、协商,共同构成我们的意识体验。*
