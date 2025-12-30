@@ -21,6 +21,8 @@ const sidebars: SidebarsConfig = {
       items: [
         'part1/chapter-01-prism',
         'part1/chapter-02-api',
+        'part1/chapter-03-430-thinking',
+        'part1/chapter-04-ai-cognition',
       ],
     },
     {
