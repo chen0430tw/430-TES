@@ -27,6 +27,20 @@ const sidebars: SidebarsConfig = {
     },
     {
       type: 'category',
+      label: '第二部分：认知与思维体系',
+      items: [
+        'part2/chapter-05-gntp',
+        'part2/chapter-06-csa',
+        'part2/chapter-07-mcs',
+        'part2/chapter-08-act',
+        'part2/chapter-09-odeid',
+        'part2/chapter-10-iteration',
+        'part2/chapter-11-reconstruction',
+        'part2/chapter-12-pruning-effect',
+      ],
+    },
+    {
+      type: 'category',
       label: '第三部分：宇宙理论体系',
       items: [
         'part3/chapter-13-universal-math',
