@@ -79,7 +79,7 @@ $$\mathcal{B} = \arg\max_{\mathbf{x}} \mathcal{F}[\Phi(\mathbf{x})]$$
 - **注意力权重泛函**：$\mathcal{F} = \sum w_i \Phi_i$（显著性）
 - **稳定性泛函**：$\mathcal{F} = -\nabla^2 \Phi$（最稳定点）
 
-**430的推广**：
+**质心学的推广**：
 
 | 场类型 | 质心含义 |
 |--------|---------|
@@ -127,7 +127,7 @@ $$\frac{d^2 \mathbf{r}_{\text{COM}}}{dt^2} = \frac{\mathbf{F}_{\text{ext}}}{M}$$
 **关键性质**：
 内力不改变质心运动——这是**守恒律**的体现。
 
-**430的推广**：
+**质心学的推广**：
 
 **Theorem 18.II.1** (Barycenter Conservation):
 在孤立系统中，广义质心的演化由**外部驱动**决定，内部重组不影响质心。
@@ -155,7 +155,7 @@ $$\frac{dq}{dt} = \frac{\partial H}{\partial p}, \quad \frac{dp}{dt} = -\frac{\p
 相空间的密度 $\rho(q, p, t)$ 满足：
 $$\frac{\partial \rho}{\partial t} + \{\rho, H\} = 0$$
 
-**430的洞察**：
+**相空间质心**：
 
 **Theorem 18.II.2** (Phase Space Barycenter):
 系统在相空间中的质心是：
@@ -178,7 +178,7 @@ $$L(q, \dot{q}, t) = T - V$$
 
 $$S[q] = \int_{t_1}^{t_2} L(q, \dot{q}, t) \, dt \quad \Rightarrow \quad \delta S = 0$$
 
-**430的推广**：
+**最小作用量的推广**：
 
 **Theorem 18.II.3** (Least Action = Barycenter Extremization):
 系统的演化路径是使某个"广义作用量"取极值的路径，这等价于追踪质心的最优轨迹。
@@ -205,7 +205,7 @@ $$F = -\nabla V$$
 
 力是势能梯度的负值。
 
-**430的推广**：
+**广义势能**：
 
 **Definition 18.II.1** (Generalized Potential):
 任何系统都有"广义势能" $\mathcal{V}(\mathcal{B})$，质心的演化由梯度驱动：
@@ -305,7 +305,7 @@ $$S = -k_B \sum_i P_i \log P_i$$
 孤立系统的熵单调增加：
 $$\frac{dS}{dt} \geq 0$$
 
-**430的洞察**：
+**熵与质心的关系**：
 
 **Theorem 18.III.1** (Entropy Drives Barycenter Diffusion):
 熵增对应质心的扩散——系统从有序（质心集中）到无序（质心弥散）。
@@ -333,7 +333,7 @@ $$\frac{dS}{dt} = \frac{dS_{\text{internal}}}{dt} + \frac{dS_{\text{exchange}}}{
 **耗散结构（Prigogine）**：
 开放系统可以在远离平衡处形成有序结构。
 
-**430的推广**：
+**非平衡态质心**：
 
 **Theorem 18.III.2** (Non-Equilibrium Barycenter Maintenance):
 开放系统可以通过持续输入能量/信息维持质心的集中。
@@ -377,7 +377,7 @@ $$\langle \mathbf{p} \rangle = \int \psi^*(\mathbf{r}) \left(-i\hbar \nabla\righ
 **期望值**：
 $$\langle \hat{O} \rangle = \text{Tr}(\rho \hat{O})$$
 
-**430的洞察**：
+**密度矩阵的质心意义**：
 
 **Theorem 18.IV.1** (Density Matrix as Quantum Barycenter):
 密度矩阵 $\rho$ 就是量子系统在Hilbert空间中的"质心"表示。
@@ -399,7 +399,7 @@ $$|\Psi\rangle = \frac{1}{\sqrt{2}}(|0\rangle_A |1\rangle_B + |1\rangle_A |0\ran
 **关键性质**：
 不能分解为 $|\psi\rangle_A \otimes |\phi\rangle_B$。
 
-**430的洞察**：
+**纠缠的质心意义**：
 
 **Theorem 18.IV.2** (Entanglement = Non-Local Barycenter):
 纠缠态的质心是**非局域**的——无法定义单独的局域质心。
@@ -470,7 +470,7 @@ $$\frac{dz}{dt} = xy - \beta z$$
 2. **有界性**：轨迹在有限区域
 3. **非周期性**：永不重复
 
-**430的洞察**：
+**混沌的本质**：
 
 **Theorem 18.V.2** (Chaos = Unpredictable Barycenter):
 混沌系统的质心虽然有确定演化方程，但长期行为**不可预测**。
@@ -513,7 +513,7 @@ $$x_{n+1} = r x_n (1 - x_n)$$
 **Definition 18.V.2** (Critical Point):
 临界点是系统性质发生质变的参数值。
 
-**430的推广**：
+**质心跃迁理论**：
 
 **Theorem 18.V.3** (Barycenter Phase Transition):
 系统的质心在临界点发生**跃迁**——从一个吸引子跳到另一个。
