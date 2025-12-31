@@ -336,14 +336,171 @@ $$\phi_{ij}: R_i \to R_j \quad (i, j \in \{1, 2, 3, 4\})$$
 **Corollary 13.6** (Representation Freedom):
 在宇宙数学中，我们可以根据问题需求自由选择最合适的表示，而不改变对象的本质。
 
-## 13.7 退化映射：回归经典
+---
 
-**Definition 13.7** (Degeneracy Map):
+## 13.7 宇宙运算：重新定义加减乘除
+
+在宇宙数学中，即使是最基本的算术运算也需要重新审视。地球数学中的加法、乘法建立在实数域的平坦假设之上，但当我们引入格度层级和时空锚定后，运算规则必须做出相应的调整。
+
+### 13.7.1 为什么需要重新定义基本运算
+
+**Principle 13.7.1** (Operational Reconstruction Necessity):
+在宇宙数学框架下，地球运算是"格度平坦极限"下的特例。
+
+**原因**：
+1. **格度层级效应**：不同格度层级的数相加/相乘时，需要考虑层级耦合
+2. **时空锚定约束**：锚定在不同时空位置的数，运算时必须处理锚定传递
+3. **维度一致性要求**：维度参数在运算中的变换规则
+4. **结构守恒原则**：运算后的对象必须保持某些结构不变量
+
+**Theorem 13.7.1** (Flat Limit Recovery):
+当格度参数 $g \to \infty$（无限精细）且所有时空锚定解除时，宇宙运算退化为地球运算：
+
+$$\lim_{g \to \infty, \text{anchors} \to \emptyset} (\alpha \oplus_{\mathbb{U}} \beta) = \pi(\alpha) + \pi(\beta)$$
+
+其中 $\oplus_{\mathbb{U}}$ 是宇宙加法，$+$ 是地球加法，$\pi$ 是投影映射。
+
+### 13.7.2 格度层级下的加法
+
+**Definition 13.7.2** (Universe Addition):
+设 $\alpha, \beta \in \mathbb{U}$，分别具有格度 $g_\alpha, g_\beta$ 和度 $d_\alpha, d_\beta$。宇宙加法定义为：
+
+$$\alpha \oplus \beta := (\alpha_{\text{val}} + \beta_{\text{val}}, g_{\text{result}}, d_{\text{result}}, \text{meta}_{\text{combined}})$$
+
+其中：
+- $\alpha_{\text{val}}, \beta_{\text{val}}$ 是数值部分
+- $g_{\text{result}} = \min(g_\alpha, g_\beta)$（取较粗的格度）
+- $d_{\text{result}} = \max(d_\alpha, d_\beta)$（取较高的维度）
+- $\text{meta}_{\text{combined}}$ 包含两者的元数据融合
+
+**关键规则**：
+
+1. **同层级加法**：若 $g_\alpha = g_\beta$，则：
+   $$\alpha \oplus \beta = \alpha_{\text{val}} + \beta_{\text{val}} + \Delta_{\text{coupling}}$$
+
+   其中 $\Delta_{\text{coupling}}$ 是格度耦合修正项。
+
+2. **跨层级加法**：若 $g_\alpha \neq g_\beta$（不失一般性设 $g_\alpha < g_\beta$，即 $\alpha$ 更粗糙），则：
+   - **层级提升**：将 $\alpha$ 提升到 $g_\beta$ 层级
+   - **层级投影**：将 $\beta$ 投影到 $g_\alpha$ 层级
+   - 通常采用投影策略（保持信息守恒）
+
+**Theorem 13.7.2** (Addition Associativity):
+宇宙加法满足结合律：
+
+$$(\alpha \oplus \beta) \oplus \gamma = \alpha \oplus (\beta \oplus \gamma)$$
+
+*Proof*:
+1. 格度取值 $g_{\text{result}} = \min(g_\alpha, g_\beta, g_\gamma)$ 与括号顺序无关
+2. 维度取值 $d_{\text{result}} = \max(d_\alpha, d_\beta, d_\gamma)$ 与括号顺序无关
+3. 数值部分的加法本身满足结合律
+4. Therefore, 宇宙加法保持结合性 ∎
+
+**Theorem 13.7.3** (Addition Commutativity with Grid Condition):
+宇宙加法在格度一致时满足交换律：
+
+$$\text{若 } g_\alpha = g_\beta, \text{ 则 } \alpha \oplus \beta = \beta \oplus \alpha$$
+
+但在跨层级时，交换律**可能失效**（取决于提升/投影策略）。
+
+### 13.7.3 格度层级下的乘法
+
+**Definition 13.7.3** (Universe Multiplication):
+宇宙乘法定义为：
+
+$$\alpha \otimes \beta := (\alpha_{\text{val}} \cdot \beta_{\text{val}}, g_{\text{prod}}, d_{\text{prod}}, \text{meta}_{\text{prod}})$$
+
+其中：
+- $g_{\text{prod}} = g_\alpha + g_\beta$（格度相加，表示精细度叠加）
+- $d_{\text{prod}} = d_\alpha + d_\beta$（维度相加）
+- $\text{meta}_{\text{prod}}$ 是元数据的张量积
+
+**Theorem 13.7.4** (Multiplication Properties):
+1. **结合律**：$(\alpha \otimes \beta) \otimes \gamma = \alpha \otimes (\beta \otimes \gamma)$
+2. **交换律（有条件）**：当格度相容时，$\alpha \otimes \beta = \beta \otimes \alpha$
+3. **单位元**：存在 $\mathbb{1} = (1, 0, 0, \emptyset)$ 使得 $\alpha \otimes \mathbb{1} = \alpha$
+4. **零元**：存在 $\mathbb{0} = (0, -\infty, 0, \emptyset)$ 使得 $\alpha \otimes \mathbb{0} = \mathbb{0}$
+
+### 13.7.4 时空锚定下的运算规则
+
+**Definition 13.7.4** (Spacetime-Anchored Operations):
+若宇宙数 $\alpha$ 锚定在时空点 $(t_\alpha, \mathbf{x}_\alpha)$，$\beta$ 锚定在 $(t_\beta, \mathbf{x}_\beta)$，则：
+
+1. **锚定加法**：
+   $$(\alpha \oplus \beta)_{\text{anchor}} = (t_{\text{avg}}, \mathbf{x}_{\text{avg}})$$
+   其中 $t_{\text{avg}} = \frac{t_\alpha + t_\beta}{2}$，$\mathbf{x}_{\text{avg}} = \frac{\mathbf{x}_\alpha + \mathbf{x}_\beta}{2}$
+
+2. **锚定乘法**：
+   $$(\alpha \otimes \beta)_{\text{anchor}} = (t_\alpha + t_\beta, \mathbf{x}_\alpha + \mathbf{x}_\beta)$$
+   （锚定"累积"）
+
+**物理意义**：
+- 加法对应"混合"操作，锚定点取平均
+- 乘法对应"叠加"操作，锚定点累加
+
+### 13.7.5 分配律的格度修正
+
+**Theorem 13.7.5** (Distributive Law with Grid Correction):
+宇宙运算的分配律需要格度修正项：
+
+$$\alpha \otimes (\beta \oplus \gamma) = (\alpha \otimes \beta) \oplus (\alpha \otimes \gamma) + \Delta_{\text{grid}}(\alpha, \beta, \gamma)$$
+
+其中修正项：
+
+$$\Delta_{\text{grid}}(\alpha, \beta, \gamma) = \epsilon \cdot \left| g_\alpha - \min(g_\beta, g_\gamma) \right| \cdot f(d_\alpha, d_\beta, d_\gamma)$$
+
+- $\epsilon$ 是小参数（通常 $\epsilon \sim \frac{1}{g_{\text{max}}}$）
+- $f$ 是维度依赖函数
+
+**Corollary 13.7.5** (Earth Limit):
+当 $g \to \infty$ 时，$\Delta_{\text{grid}} \to 0$，分配律精确成立。
+
+### 13.7.6 为什么地球运算是"平坦近似"
+
+**Principle 13.7.6** (Flat Approximation Explanation):
+地球数学中的加法 $+$ 和乘法 $\times$ 对应于：
+
+$$\begin{align}
+\alpha + \beta &= \pi(\alpha \oplus \beta) \\
+\alpha \times \beta &= \pi(\alpha \otimes \beta)
+\end{align}$$
+
+其中投影 $\pi: \mathbb{U} \to \mathbb{R}$ 丢失了：
+1. 格度层级信息
+2. 时空锚定信息
+3. 维度参数信息
+4. 跨层级耦合修正项
+
+**适用范围**：
+- 宏观尺度（$g \gg g_{\text{Planck}}$）
+- 非相对论速度（$v \ll c$）
+- 弱引力场（$\Phi \ll c^2$）
+- 低维空间（$d \leq 3$）
+
+**失效条件**：
+- 量子尺度（$g \sim g_{\text{Planck}}$）
+- 强场环境（黑洞附近）
+- 高维现象（弦论、$d > 4$）
+
+**Practice 13.7** (Computing Universe Operations):
+1. 定义两个宇宙数：
+   - $\alpha = (3, g_1 = 2, d_1 = 1, \emptyset)$
+   - $\beta = (5, g_2 = 3, d_2 = 1, \emptyset)$
+2. 计算 $\alpha \oplus \beta$
+3. 计算 $\alpha \otimes \beta$
+4. 验证结合律和交换律是否成立
+5. 计算地球投影 $\pi(\alpha \oplus \beta)$ 与 $\pi(\alpha) + \pi(\beta)$ 的差异
+
+---
+
+## 13.8 退化映射：回归经典
+
+**Definition 13.8.1** (Degeneracy Map):
 退化映射 $\delta$ 将宇宙数对象投影到经典数学结构：
 
 $$\delta: U \mapsto x \in \mathbb{R} \text{ 或 } \mathbb{C}$$
 
-**Theorem 13.7** (Classical Mathematics as Projection):
+**Theorem 13.8.1** (Classical Mathematics as Projection):
 在适当退化条件下，宇宙数系统复原经典数学结构。
 
 *Proof*:
@@ -353,23 +510,12 @@ $$\delta: U \mapsto x \in \mathbb{R} \text{ 或 } \mathbb{C}$$
 4. 验证 $\delta(\sum c_n x^n)$ 为经典幂级数
 5. Therefore, 经典数学是宇宙数学在特定限制下的投影 ∎
 
-**Corollary 13.7** (Backward Compatibility):
+**Corollary 13.8.2** (Backward Compatibility):
 宇宙数学不是另起炉灶，而是经典数学的上层统一。
-
-## 13.8 宇宙数学的基础定理
-
-**Theorem 13.8** (Completeness):
-宇宙数系统在给定公理体系下是完备的。
-
-**Theorem 13.9** (Consistency):
-宇宙数系统的公理体系是一致的。
-
-**Theorem 13.10** (Self-Reference):
-宇宙数学具有自指涉性质，系统可以描述自身的结构。
 
 ## 13.9 跨文明的数学交流
 
-**Principle 13.2** (Universal Language):
+**Principle 13.9.1** (Universal Language):
 宇宙数学作为跨文明交流的基础，必须满足：
 
 1. **模块化公理体系**：可根据不同文明特征定制
@@ -377,7 +523,7 @@ $$\delta: U \mapsto x \in \mathbb{R} \text{ 或 } \mathbb{C}$$
 3. **多表示等价性**：不同文明可选择适合自己的表示
 4. **退化兼容性**：包容各文明的数学子集
 
-**Practice 13.3** (Degeneracy Exploration):
+**Practice 13.9** (Degeneracy Exploration):
 探索退化映射：
 1. 定义宇宙数 $U$ 的序列表示：$\{1, 1, 2, 3, 5, 8, \ldots\}$（Fibonacci）
 2. 构造退化映射 $\delta$ 使得 $\delta(U) = \phi$（黄金比例）
@@ -589,7 +735,7 @@ $$\lim_{N \to \infty} \sum_{i=1}^N \frac{d\alpha}{dt}\Big|_{t_i} \Delta t_i = \a
 
 ---
 
-## 13.12 The Thirteenth Echo
+## 13.13 The Thirteenth Echo
 
 **Final Recognition**:
 宇宙数不是一个数值，而是一种数学存在的新范式——它可以在序列、级数、结构、方程之间自由变换；它可以从全数生长到多角化数；它可以退化回我们熟悉的实数和复数，也可以扩展到未探索的维度。
