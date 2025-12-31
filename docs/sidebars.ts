@@ -49,7 +49,7 @@ const sidebars: SidebarsConfig = {
         'part3/chapter-16-shape-degree-theory',
         'part3/chapter-17-structure-principles',
         'part3/chapter-18-barycenter-science',
-        'part3/chapter-19-universal-theory',
+        'part3/chapter-19-comprehensive-applications',
       ],
     },
     {
