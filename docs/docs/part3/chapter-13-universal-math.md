@@ -327,7 +327,7 @@ $$d_{t+1} - d_t = \Gamma(\alpha_t) - \eta \cdot \frac{\partial \mathcal{E}}{\par
 #### 临界平衡条件
 
 **原版定义**：
-$$\Delta d = 0 \quad \Leftrightarrow \quad \Gamma(\alpha^*) = \eta \cdot \frac{\partial \mathcal{E}}{\partial d}(\alpha^*)$$
+$$\Delta d = 0 \quad \Leftrightarrow \quad \Gamma(\alpha^{*}) = \eta \cdot \frac{\partial \mathcal{E}}{\partial d}(\alpha^{*})$$
 
 **稳定性条件**（离散稳定性）：
 $$\left|\frac{\partial \Delta}{\partial d}\right| < 1$$
@@ -345,14 +345,14 @@ $$\mathcal{E}(\alpha_{t+1}) \leq \mathcal{E}(\alpha_t) \quad \text{eventually}$$
 **Definition A.2.7** (Critical Points):
 临界点是维度流的不动点：
 
-$$\frac{dd}{dt} = 0 \quad \Rightarrow \quad \Gamma(\alpha^*) = \eta \cdot \frac{\partial \mathcal{E}}{\partial d}\Big|_{\alpha^*}$$
+$$\frac{dd}{dt} = 0 \quad \Rightarrow \quad \Gamma(\alpha^{*}) = \eta \cdot \frac{\partial \mathcal{E}}{\partial d}\Big|_{\alpha^{*}}$$
 
 **Theorem A.2.4** (Dimensional Criticality):
 在临界点处，系统的维度既不增长也不衰减，代表某种结构的稳定配置。
 
 *Proof*:
 1. 临界点定义为 $\frac{dd}{dt} = 0$
-2. 即维度增殖力 $\Gamma(\alpha^*)$ 与维度压缩力 $\eta \frac{\partial \mathcal{E}}{\partial d}|_{\alpha^*}$ 平衡
+2. 即维度增殖力 $\Gamma(\alpha^{*})$ 与维度压缩力 $\eta \frac{\partial \mathcal{E}}{\partial d}|_{\alpha^{*}}$ 平衡
 3. 在该点附近，维度不再漂移
 4. 若满足 Lyapunov 稳定性，则该点为吸引子
 5. Therefore, 临界点是动力学稳定的结构配置 ∎
@@ -367,13 +367,13 @@ $$\frac{dd}{dt} = 0 \quad \Rightarrow \quad \Gamma(\alpha^*) = \eta \cdot \frac{
 
 > **【原版定义】**
 >
-> 称 $\alpha^*$ 为序列 $\{\alpha_t\}$ 的**宇宙极限**，当且仅当：
+> 称 $\alpha^{*}$ 为序列 $\{\alpha_t\}$ 的**宇宙极限**，当且仅当：
 >
-> 1. **结构自洽（固定点）**：$T(\alpha^*) = \alpha^*$
-> 2. **维度平衡（流为零）**：$\Delta d(\alpha^*) = 0$
+> 1. **结构自洽（固定点）**：$T(\alpha^{*}) = \alpha^{*}$
+> 2. **维度平衡（流为零）**：$\Delta d(\alpha^{*}) = 0$
 > 3. **临界稳定（吸引子）**：在邻域内 $\mathcal{E}$ 下降
 >
-> 记作：$\lim_{t \to \infty} \alpha_t = \alpha^*$
+> 记作：$\lim_{t \to \infty} \alpha_t = \alpha^{*}$
 
 **关键洞察**：
 - 极限不是「距离趋近」
@@ -381,7 +381,7 @@ $$\frac{dd}{dt} = 0 \quad \Rightarrow \quad \Gamma(\alpha^*) = \eta \cdot \frac{
 
 **为什么这是极限的本质？**
 
-1. **固定点**：系统不再变化 $\Rightarrow$ $T(\alpha^*) = \alpha^*$
+1. **固定点**：系统不再变化 $\Rightarrow$ $T(\alpha^{*}) = \alpha^{*}$
 2. **维度稳定**：有效自由度不再漂移 $\Rightarrow$ $\Delta d = 0$
 3. **吸引性**：附近的状态会被拉向它 $\Rightarrow$ Lyapunov 稳定
 
@@ -394,17 +394,17 @@ $$\lim_{n \to \infty} \alpha_n = \alpha \quad \Leftrightarrow \quad \forall \eps
 这就是我们熟悉的 $\epsilon$-$\delta$ 定义——但它只是投影，不是本质。
 
 **Definition A.3.1** (Universe Limit):
-宇宙数序列 $\{\alpha_n\}$ 的极限 $\alpha^*$ 定义为满足以下**三重条件**的唯一对象：
+宇宙数序列 $\{\alpha_n\}$ 的极限 $\alpha^{*}$ 定义为满足以下**三重条件**的唯一对象：
 
 1. **结构自洽**：
-   $$\mathcal{E}_{\text{GD}}(\alpha^*) = 0 \quad \Leftrightarrow \quad g(\alpha^*) = \Phi(d(\alpha^*))$$
+   $$\mathcal{E}_{\text{GD}}(\alpha^{*}) = 0 \quad \Leftrightarrow \quad g(\alpha^{*}) = \Phi(d(\alpha^{*}))$$
 
 2. **维度平衡**：
-   $$\Gamma(\alpha^*) = \eta \cdot \frac{\partial \mathcal{E}}{\partial d}\Big|_{\alpha^*}$$
+   $$\Gamma(\alpha^{*}) = \eta \cdot \frac{\partial \mathcal{E}}{\partial d}\Big|_{\alpha^{*}}$$
    即维度流达到临界不动点。
 
 3. **临界稳定**：
-   $$\forall \epsilon > 0, \exists N, \forall n > N: d_s(\alpha_n, \alpha^*) < \epsilon$$
+   $$\forall \epsilon > 0, \exists N, \forall n > N: d_s(\alpha_n, \alpha^{*}) < \epsilon$$
    结构距离趋于零。
 
 **Theorem A.3.1** (Classical Limit as Special Case):
@@ -414,7 +414,7 @@ $$\lim_{n \to \infty} \alpha_n = \alpha \quad \Leftrightarrow \quad \forall \eps
 1. 在退化映射 $\delta: \mathbb{U} \to \mathbb{R}$ 下
 2. 结构距离 $d_s$ 退化为欧氏距离 $|\cdot|$
 3. 格度平衡自动满足（维度固定为常数）
-4. 三重条件简化为 $|x_n - x^*| < \epsilon$
+4. 三重条件简化为 $|x_n - x^{*}| < \epsilon$
 5. Therefore, 宇宙极限在投影下退化为经典极限 ∎
 
 ---
@@ -423,10 +423,10 @@ $$\lim_{n \to \infty} \alpha_n = \alpha \quad \Leftrightarrow \quad \forall \eps
 
 > **【原版定义】**
 >
-> 在极限点 $\alpha^*$ 邻域，取扰动 $\delta \alpha_t := \alpha_t \ominus \alpha^*$。
+> 在极限点 $\alpha^{*}$ 邻域，取扰动 $\delta \alpha_t := \alpha_t \ominus \alpha^{*}$。
 >
 > **导数算子**为变换的线性化：
-> $$DT(\alpha^*): \delta \alpha_t \mapsto \delta \alpha_{t+1}$$
+> $$DT(\alpha^{*}): \delta \alpha_t \mapsto \delta \alpha_{t+1}$$
 >
 > 其特征值决定：
 > - $|\lambda| < 1$：稳定方向（扰动衰减）
@@ -836,8 +836,8 @@ $$\zeta_i = \lim_{n \to \infty} \zeta_i^{(n)}$$
 
 *Proof*:
 1. 定义迭代映射 $T(z) = \frac{a+bi}{z}$
-2. 不动点满足 $z^* = T(z^*) \Rightarrow (z^*)^2 = a + bi$
-3. 分析稳定性：$T'(z^*) = -\frac{a+bi}{(z^*)^2} = -1$
+2. 不动点满足 $z^{*} = T(z^{*}) \Rightarrow (z^{*})^2 = a + bi$
+3. 分析稳定性：$T'(z^{*}) = -\frac{a+bi}{(z^{*})^2} = -1$
 4. 边界稳定（$|T'| = 1$），需进一步分析
 5. 在适当初值下，序列呈螺旋收敛至不动点
 6. Therefore, 自指涉序列收敛到 $\zeta_i$ ∎
@@ -1046,10 +1046,10 @@ $$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \m
 **Axiom B.9.17** (Universal Limit):
 极限定义为**结构自洽 + 维度平衡 + 临界稳定**的三重条件：
 
-$$\lim_{n \to \infty} \alpha_n = \alpha^* \Leftrightarrow \begin{cases}
-\mathcal{E}_{\text{GD}}(\alpha^*) = 0 & \text{(格度平衡)} \\
-\Gamma(\alpha^*) = \eta \cdot \frac{\partial \mathcal{E}}{\partial d}\Big|_{\alpha^*} & \text{(临界稳定)} \\
-d_s(\alpha_n, \alpha^*) \to 0 & \text{(结构收敛)}
+$$\lim_{n \to \infty} \alpha_n = \alpha^{*} \Leftrightarrow \begin{cases}
+\mathcal{E}_{\text{GD}}(\alpha^{*}) = 0 & \text{(格度平衡)} \\
+\Gamma(\alpha^{*}) = \eta \cdot \frac{\partial \mathcal{E}}{\partial d}\Big|_{\alpha^{*}} & \text{(临界稳定)} \\
+d_s(\alpha_n, \alpha^{*}) \to 0 & \text{(结构收敛)}
 \end{cases}$$
 
 **Axiom B.9.18** (Universal Derivative):
@@ -1280,7 +1280,7 @@ $$\boxed{H_n \xrightarrow{\text{维度扩展}} S \xrightarrow{\text{角参数化
 | 多角化数 $(H_n, \theta)$ | 四元组表示 $(a,b,\zeta,\theta)$ | B.5.1 ↔ A.2.1 |
 | 自指涉虚数单位 $\zeta$ | 格函数 $g = \log\|\zeta\|$ | B.7.1 ↔ A.2.3 |
 | 序列收敛 | 维度平衡 $\Delta d = 0$ | B.10.1 ↔ A.3.1 |
-| 不动点 $f(U) = U$ | 临界固定点 $T(\alpha^*) = \alpha^*$ | B.6.1 ↔ A.3.1 |
+| 不动点 $f(U) = U$ | 临界固定点 $T(\alpha^{*}) = \alpha^{*}$ | B.6.1 ↔ A.3.1 |
 | 范数 $\|H_n\|$ | 从多维结构提取标量测度 | B.3.1 ↔ A.2.1 |
 | 21条公理 | 格度-临界框架的形式化 | B.9.1-21 ↔ A.1-6 |
 
