@@ -45,7 +45,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'part3/chapter-13-universal-math',
         'part3/chapter-14-grid-degree-theory',
-        'part3/chapter-15-logic-metrology',
+        'part3/chapter-15-meta-manifold-theory',
         'part3/chapter-16-spacetime-network',
         'part3/chapter-17-universal-linguistics',
         'part3/chapter-18-universal-sociology',
