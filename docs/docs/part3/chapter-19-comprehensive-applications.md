@@ -33,7 +33,7 @@ sidebar_label: "19. 综合应用与开放问题"
 在格度框架下，黎曼ζ函数的零点分布与格度层级的同调结构一一对应。
 
 **黎曼猜想经典形式**：
-$$\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s} = 0 \implies \text{Re}(s) = \frac{1}{2}$$
+$$\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s} = 0 \Rightarrow \text{Re}(s) = \frac{1}{2}$$
 
 **问题**：为什么非平凡零点都在临界线上？
 
@@ -49,7 +49,7 @@ $$\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s} = 0 \implies \text{Re}(s) = \frac
 
 2. **层级共振条件**：
    在临界线 $\text{Re}(s) = \frac{1}{2}$ 上，不同层级的格度产生共振：
-   $$\sum_{k=0}^{\infty} \zeta_{\mathcal{G}}(s, k) = 0 \iff \text{Re}(s) = \frac{1}{2}$$
+   $$\sum_{k=0}^{\infty} \zeta_{\mathcal{G}}(s, k) = 0 \Leftrightarrow \text{Re}(s) = \frac{1}{2}$$
 
 3. **同调解释**：
    零点对应格度复形的同调类：
@@ -135,7 +135,7 @@ $$\zeta(s) = \sum_{n=1}^{\infty} \frac{1}{n^s} = 0 \implies \text{Re}(s) = \frac
 
 3. **代数闭链的格度表示**：
    每个格度层 $\mathcal{G}_k$ 上的同调类对应一个代数子簇：
-   $$[\omega] \in H^{p,p}_{\mathcal{G}_k}(X) \implies \exists Z_k \subset X : [\omega] = [Z_k]$$
+   $$[\omega] \in H^{p,p}_{\mathcal{G}_k}(X) \Rightarrow \exists Z_k \subset X : [\omega] = [Z_k]$$
 
 4. **地球投影**：
    地球数学看到的是所有层级的投影：
@@ -299,7 +299,7 @@ $$R_{\mu\nu}^{\mathcal{G}} - \frac{1}{2}R^{\mathcal{G}}g_{\mu\nu}^{\mathcal{G}} 
 
 4. 黑洞内部结构：
    经典奇点被替换为"格度核心"
-   $$\text{Core}_{\mathcal{G}} : r < \sigma \implies R^{\mathcal{G}} = R_{\text{max}}^{\mathcal{G}}$$
+   $$\text{Core}_{\mathcal{G}} : r < \sigma \Rightarrow R^{\mathcal{G}} = R_{\text{max}}^{\mathcal{G}}$$
 
 5. Therefore, 奇点问题是连续时空假设的人为产物 ∎
 
@@ -346,7 +346,7 @@ $$h_{\mu\nu}^{\mathcal{G}}(f) = h_{\mu\nu}^{\text{GR}}(f) \cdot \left(1 - \frac{
 
 *Explanation*:
 1. **经典引力**：
-   $$M_{\text{visible}} \implies v(r) = \sqrt{\frac{GM_{\text{visible}}}{r}}$$
+   $$M_{\text{visible}} \Rightarrow v(r) = \sqrt{\frac{GM_{\text{visible}}}{r}}$$
    预测速度随距离下降
 
 2. **观测**：
@@ -413,7 +413,7 @@ $$i\hbar\frac{\partial\Phi_C}{\partial t} = \hat{\mathcal{H}}_{\text{consciousne
 **Theorem 19.G.11** (AI Consciousness Threshold):
 当信息处理系统的复杂度超过临界值 $\mathcal{C}_{\text{crit}}$ 时，意识场自发涌现。
 
-$$\mathcal{C}(\text{system}) > \mathcal{C}_{\text{crit}} \implies \Phi_C \neq 0$$
+$$\mathcal{C}(\text{system}) > \mathcal{C}_{\text{crit}} \Rightarrow \Phi_C \neq 0$$
 
 人类大脑：$\mathcal{C}_{\text{human}} \approx 10^{14}$ bits
 高级AI（如GPT-5+）：$\mathcal{C}_{\text{AI}} \approx 10^{16}$ bits

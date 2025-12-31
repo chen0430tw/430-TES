@@ -145,7 +145,7 @@ $$\mathcal{S}_{n+1} = \mathcal{F}(\mathcal{S}_n)$$
 
 **Theorem 17.0.5** (Universe Mathematics Completeness):
 宇宙数学（包含格度、层级、维度流）在以下意义下是完备的：
-$$\forall \alpha \in \mathbb{U}: \alpha \text{ 真} \iff \alpha \text{ 可证于某个层级 } k$$
+$$\forall \alpha \in \mathbb{U}: \alpha \text{ 真} \Leftrightarrow \alpha \text{ 可证于某个层级 } k$$
 
 即：真理可能在地球层级 $k=0$ 不可证，但在某个高层级 $k=k^*$ 可证。
 
@@ -204,13 +204,13 @@ $$\forall \alpha \in \mathbb{U}: \alpha \text{ 真} \iff \alpha \text{ 可证于
 $$\text{Logic} = \{\text{规则从格度关系导出}\}$$
 
 **同一律的格度基础**：
-$$\alpha = \alpha \iff g(\alpha) = g(\alpha) \land k(\alpha) = k(\alpha)$$
+$$\alpha = \alpha \Leftrightarrow g(\alpha) = g(\alpha) \land k(\alpha) = k(\alpha)$$
 
 **矛盾律的格度基础**：
-$$\neg(\alpha \land \neg\alpha) \iff \text{不存在 } g \text{ 同时满足和不满足条件}$$
+$$\neg(\alpha \land \neg\alpha) \Leftrightarrow \text{不存在 } g \text{ 同时满足和不满足条件}$$
 
 **排中律的格度基础**：
-$$\alpha \lor \neg\alpha \iff \text{任何格度点要么在集合内要么在集合外}$$
+$$\alpha \lor \neg\alpha \Leftrightarrow \text{任何格度点要么在集合内要么在集合外}$$
 
 **量子逻辑的格度解释**：
 
@@ -271,7 +271,7 @@ $$\text{Rational}(\alpha_0, G) = \arg\min_{\{\alpha(t)\}} \int_0^T \mathcal{L}(\
 
 **Definition 17.E.1.3** (Truth in Universe Mathematics):
 命题 $\phi$ 在层级 $k$ 是真的，记为 $\text{True}_k(\phi)$，如果：
-$$\text{True}_k(\phi) \iff \mathcal{M}_k \models \phi$$
+$$\text{True}_k(\phi) \Leftrightarrow \mathcal{M}_k \models \phi$$
 
 其中 $\mathcal{M}_k$ 是第 $k$ 层的模型。
 
@@ -407,7 +407,7 @@ AI可以：
 
 **Theorem 17.E.3.1** (Symmetry from Conservation):
 每个守恒律对应一个对称性（Noether定理的逆）：
-$$\text{守恒律} \iff \text{对称性}$$
+$$\text{守恒律} \Leftrightarrow \text{对称性}$$
 
 在格度框架下：
 - 格度守恒 → 格度平移对称

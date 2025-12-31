@@ -145,7 +145,7 @@ $$\mathcal{E}(\mathcal{B}) = \inf_{\alpha \in \mathcal{S}} \mathcal{E}(\alpha)$$
 
 **Axiom 18.3** (Grid-Degree Balance):
 质心满足格度平衡：
-$$\mathcal{E}_{\text{GD}}(\mathcal{B}) = 0 \iff g(\mathcal{B}) = \Phi(d(\mathcal{B}))$$
+$$\mathcal{E}_{\text{GD}}(\mathcal{B}) = 0 \Leftrightarrow g(\mathcal{B}) = \Phi(d(\mathcal{B}))$$
 
 **Axiom 18.4** (Dimension Stability):
 质心的维度流为零：

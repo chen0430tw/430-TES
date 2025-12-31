@@ -251,7 +251,7 @@ $$\xi(T(g)) = \xi(g), \quad k(T(g)) = k(g)$$
 **格度保持条件**：
 
 **Theorem 16.D.2.1** (Preservation Criterion):
-变换 $T$ 格度保持 $\iff$ 以下条件成立：
+变换 $T$ 格度保持 $\Leftrightarrow$ 以下条件成立：
 1. $T$ 是格度同胚
 2. $T$ 保持格度连接关系
 3. $T$ 不跨层（在同一层级内）

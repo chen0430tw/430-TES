@@ -1325,7 +1325,7 @@ $$\mathbb{N} \subset \mathbb{Z} \subset \mathbb{Q} \subset \mathbb{R} \subset \m
 **Axiom 13.10.17** (Universal Limit):
 极限定义为**结构自洽 + 维度平衡 + 临界稳定**的三重条件：
 
-$$\lim_{n \to \infty} \alpha_n = \alpha^* \iff \begin{cases}
+$$\lim_{n \to \infty} \alpha_n = \alpha^* \Leftrightarrow \begin{cases}
 \mathcal{E}_{\text{GD}}(\alpha^*) = 0 & \text{(格度平衡)} \\
 \Gamma(\alpha^*) = \eta \cdot \frac{\partial \mathcal{E}}{\partial d}\Big|_{\alpha^*} & \text{(临界稳定)} \\
 d_s(\alpha_n, \alpha^*) \to 0 & \text{(结构收敛)}
